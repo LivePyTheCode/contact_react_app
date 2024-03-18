@@ -4,6 +4,8 @@ from flask_cors import CORS, cross_origin
 import os
 from dotenv import load_dotenv
 
+load_dotenv('.env')
+
 FLASK_KEY = os.getenv('FLASK_KEY')
 DB = os.getenv('DB')
 
