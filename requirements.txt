@@ -123,7 +123,6 @@ MarkupSafe==2.1.1
 mccabe==0.7.0
 mistune==0.8.4
 mock==4.0.3
-mpmath==1.2.1
 navigator-updater==0.3.0
 nbclassic==0.5.2
 nbclient==0.5.13
