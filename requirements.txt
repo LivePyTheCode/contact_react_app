@@ -153,13 +153,11 @@ pure-eval==0.2.2
 py==1.11.0
 pyasn1==0.4.8
 pyasn1-modules==0.2.8
-pycodestyle==2.10.0
 pycosat==0.6.4
 pycparser==2.21
 pyct==0.5.0
 pycurl==7.45.1
 PyDispatcher==2.0.5
-pydocstyle==6.3.0
 pyerfa==2.0.0
 pyflakes==3.0.1
 Pygments==2.11.2
