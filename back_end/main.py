@@ -3,6 +3,7 @@ from config import app, db
 from models import Contact
 from flask_cors import cross_origin
 
+
 @app.route("/contacts", methods=["GET"])
 @cross_origin()
 def get_contacts():
@@ -71,5 +72,4 @@ if __name__ == "__main__":
 
     with app.app_context():
         db.create_all()
-
-    app.run(debug=True)
+    app.run()

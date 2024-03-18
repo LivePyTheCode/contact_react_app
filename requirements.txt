@@ -228,6 +228,7 @@ python-lsp-server==1.7.1
 python-slugify==5.0.2
 python-snappy==0.6.1
 pytoolconfig==1.2.5
+python-dotenv
 pytz==2022.7
 pyviz-comms==2.0.2
 PyWavelets==1.4.1
