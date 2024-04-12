@@ -2,14 +2,14 @@ from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 from flask_cors import CORS, cross_origin
 import os
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 
-load_dotenv('.env')
+# load_dotenv('.env')
 
-FLASK_KEY = os.getenv('FLASK_KEY')
-DB = os.getenv('DB')
+FLASK_KEY = #it's a secret! # os.getenv('FLASK_KEY')
+DB = #database # os.getenv('DB')
 
-app = Flask(__name__, static_folder='front_end/dist', static_url_path='')
+app = Flask(__name__)
 CORS(app)
 app.config['SECRET_KEY'] = FLASK_KEY
 
